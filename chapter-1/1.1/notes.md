@@ -18,6 +18,29 @@ such expressions are called **combinations**.
 
 Interpreter operates the same way even with complex expressions i.e. it reads the statement, evaluates the statement and prints the result.
 This behavior is expressed by saying that interpreter operates in a **read-evaluate-print** loop. 
+
+A critical aspect of programming laguage is that it provides names to refer to computational objects i.e.
+
+`const size = 2;`
+
+Once a value 2 is assigned to name size, it can be referred by this name in the program.
+
+## Compound Functions
+Simplest form of function declaration can be as below:
+
+` function name(parameters) { return expression; }`
+
+After declaring a function it can be used in a function application expression
+
+` function-expression(argument-expressionbs)`
+
+e.g.
+function square(x){
+    return x*x;
+}
+
+square(4);
+
 ## Substitution Model for Function Application
 
 
